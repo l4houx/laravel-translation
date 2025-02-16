@@ -1,6 +1,6 @@
 <?php
 
-namespace JoeDixon\Translation\Console\Commands;
+namespace L4houx\Translation\Console\Commands;
 
 class AddLanguageCommand extends BaseCommand
 {

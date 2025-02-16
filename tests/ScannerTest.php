@@ -1,10 +1,10 @@
 <?php
 
-namespace JoeDixon\Translation\Tests;
+namespace L4houx\Translation\Tests;
 
-use JoeDixon\Translation\Scanner;
-use JoeDixon\Translation\TranslationBindingsServiceProvider;
-use JoeDixon\Translation\TranslationServiceProvider;
+use L4houx\Translation\Scanner;
+use L4houx\Translation\TranslationBindingsServiceProvider;
+use L4houx\Translation\TranslationServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class ScannerTest extends TestCase

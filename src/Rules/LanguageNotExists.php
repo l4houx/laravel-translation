@@ -1,9 +1,9 @@
 <?php
 
-namespace JoeDixon\Translation\Rules;
+namespace L4houx\Translation\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
-use JoeDixon\Translation\Drivers\Translation;
+use L4houx\Translation\Drivers\Translation;
 
 class LanguageNotExists implements Rule
 {

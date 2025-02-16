@@ -6,8 +6,8 @@ Translation management for your Laravel application.
 
 ![Laravel Translation UI](translation.png)
 
-![GitHub](https://img.shields.io/github/checks-status/joedixon/laravel-translation/master?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/joedixon/laravel-translation.svg?style=for-the-badge)
+![GitHub](https://img.shields.io/github/checks-status/L4houx/laravel-translation/master?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/L4houx/laravel-translation.svg?style=for-the-badge)
 
 </div>
 
@@ -17,7 +17,7 @@ Translation management for your Laravel application.
 
 Laravel Translation is a package for Laravel which allows you full control
 over your translations when using [Laravel's
-localization](https://laravel.com/docs/5.7/localization) functionality.
+localization](https://laravel.com/docs/11.x/localization) functionality.
 
 The package allows you to manage your translations using either the native file
 based translations, but also provides a database driver which is useful in
@@ -39,22 +39,20 @@ Below are a full list of features:
 
 |    Laravel    | Laravel Translation |
 | ------------- | ------------------- |
-|      6.x      |          1.x        |
-|      7.x      |          1.x        |
-|      8.x      |          2.x        |
-|      9.x      |          2.x        |
+|      10.x     |          3.x        |
+|      11.x     |          3.x        |
 
 ## Installation
 
 Install the package via Composer
 
-`composer require joedixon/laravel-translation`
+`composer require L4houx/laravel-translation`
 
 Publish configuration and assets
 
-`php artisan vendor:publish --provider="JoeDixon\Translation\TranslationServiceProvider"`
+`php artisan vendor:publish --provider="L4houx\Translation\TranslationServiceProvider"`
 
-The service provider is loaded automatically using [package discovery](https://laravel.com/docs/5.7/packages#package-discovery).
+The service provider is loaded automatically using [package discovery](https://laravel.com/docs/11.x/packages#package-discovery).
 
 ## Usage
 
@@ -113,7 +111,7 @@ Choose the name of the translations table when using the database driver.
 #### File
 Utitlises Laravel's native php array and JSON based language files and exposes a
 user interface to manage the enclosed translations. Add and update languages and translations
-using either the user interface or the built-in [Artisan commands](https://laravel.com/docs/5.7/artisan).
+using either the user interface or the built-in [Artisan commands](https://laravel.com/docs/11.x/artisan).
 
 #### Database
 The database driver takes all of the functionality of Laravel's file based

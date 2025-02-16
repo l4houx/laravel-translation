@@ -1,11 +1,11 @@
 <?php
 
-namespace JoeDixon\Translation\Drivers;
+namespace L4houx\Translation\Drivers;
 
 use Illuminate\Support\Collection;
-use JoeDixon\Translation\Exceptions\LanguageExistsException;
-use JoeDixon\Translation\Language;
-use JoeDixon\Translation\Translation as TranslationModel;
+use L4houx\Translation\Exceptions\LanguageExistsException;
+use L4houx\Translation\Language;
+use L4houx\Translation\Translation as TranslationModel;
 use Throwable;
 
 class Database extends Translation implements DriverInterface

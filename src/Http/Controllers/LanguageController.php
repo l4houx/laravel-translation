@@ -1,11 +1,11 @@
 <?php
 
-namespace JoeDixon\Translation\Http\Controllers;
+namespace L4houx\Translation\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use JoeDixon\Translation\Drivers\Translation;
-use JoeDixon\Translation\Http\Requests\LanguageRequest;
+use L4houx\Translation\Drivers\Translation;
+use L4houx\Translation\Http\Requests\LanguageRequest;
 
 class LanguageController extends Controller
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace JoeDixon\Translation\Events;
+namespace L4houx\Translation\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 

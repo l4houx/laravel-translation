@@ -1,16 +1,16 @@
 <?php
 
-namespace JoeDixon\Translation;
+namespace L4houx\Translation;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
-use JoeDixon\Translation\Console\Commands\AddLanguageCommand;
-use JoeDixon\Translation\Console\Commands\AddTranslationKeyCommand;
-use JoeDixon\Translation\Console\Commands\ListLanguagesCommand;
-use JoeDixon\Translation\Console\Commands\ListMissingTranslationKeys;
-use JoeDixon\Translation\Console\Commands\SynchroniseMissingTranslationKeys;
-use JoeDixon\Translation\Console\Commands\SynchroniseTranslationsCommand;
-use JoeDixon\Translation\Drivers\Translation;
+use L4houx\Translation\Console\Commands\AddLanguageCommand;
+use L4houx\Translation\Console\Commands\AddTranslationKeyCommand;
+use L4houx\Translation\Console\Commands\ListLanguagesCommand;
+use L4houx\Translation\Console\Commands\ListMissingTranslationKeys;
+use L4houx\Translation\Console\Commands\SynchroniseMissingTranslationKeys;
+use L4houx\Translation\Console\Commands\SynchroniseTranslationsCommand;
+use L4houx\Translation\Drivers\Translation;
 
 class TranslationServiceProvider extends ServiceProvider
 {

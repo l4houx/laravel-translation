@@ -1,6 +1,6 @@
 <?php
 
-namespace JoeDixon\Translation;
+namespace L4houx\Translation;
 
 use Illuminate\Database\Eloquent\Model;
 

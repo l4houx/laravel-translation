@@ -1,11 +1,11 @@
 <?php
 
-namespace JoeDixon\Translation;
+namespace L4houx\Translation;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use JoeDixon\Translation\Drivers\Database;
-use JoeDixon\Translation\Drivers\File;
+use L4houx\Translation\Drivers\Database;
+use L4houx\Translation\Drivers\File;
 
 class TranslationManager
 {

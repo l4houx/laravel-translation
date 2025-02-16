@@ -1,13 +1,13 @@
 <?php
 
-namespace JoeDixon\Translation\Tests;
+namespace L4houx\Translation\Tests;
 
 use Illuminate\Support\Facades\Event;
-use JoeDixon\Translation\Drivers\Translation;
-use JoeDixon\Translation\Events\TranslationAdded;
-use JoeDixon\Translation\Exceptions\LanguageExistsException;
-use JoeDixon\Translation\TranslationBindingsServiceProvider;
-use JoeDixon\Translation\TranslationServiceProvider;
+use L4houx\Translation\Drivers\Translation;
+use L4houx\Translation\Events\TranslationAdded;
+use L4houx\Translation\Exceptions\LanguageExistsException;
+use L4houx\Translation\TranslationBindingsServiceProvider;
+use L4houx\Translation\TranslationServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class FileDriverTest extends TestCase
